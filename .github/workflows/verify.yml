@@ -72,7 +72,7 @@ jobs:
       - name: Install Anchor
         run: |
           cargo install --git https://github.com/coral-xyz/anchor avm --locked --force
-          avm install 1.1.2
+          avm install 1.1.2 --from-source
           avm use 1.1.2
 
       - name: Install JS dependencies
