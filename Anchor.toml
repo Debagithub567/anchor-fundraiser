@@ -1,5 +1,6 @@
 [toolchain]
-
+[tooling]
+validator = "solana"
 [features]
 resolution = true
 skip-lint = false
